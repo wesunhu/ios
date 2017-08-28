@@ -1,0 +1,754 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4033BD2A1F540C9400D76200 /* ownCloudiOSLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4033BD201F540C9400D76200 /* ownCloudiOSLibrary.framework */; };
+		4033BD2F1F540C9400D76200 /* ownCloudiOSLibraryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4033BD2E1F540C9400D76200 /* ownCloudiOSLibraryTests.m */; };
+		4033BD311F540C9400D76200 /* ownCloudiOSLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 4033BD231F540C9400D76200 /* ownCloudiOSLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4033BDC61F540E7300D76200 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4033BDC51F540E7300D76200 /* UIKit.framework */; };
+		4033BDC81F540E7A00D76200 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4033BDC71F540E7A00D76200 /* Foundation.framework */; };
+		4033BDCA1F540E8000D76200 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4033BDC91F540E8000D76200 /* XCTest.framework */; };
+		4033BE0B1F54101300D76200 /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4033BDCD1F54101300D76200 /* AFHTTPSessionManager.h */; };
+		4033BE0C1F54101300D76200 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4033BDCE1F54101300D76200 /* AFHTTPSessionManager.m */; };
+		4033BE0D1F54101300D76200 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 4033BDCF1F54101300D76200 /* AFNetworking.h */; };
+		4033BE0E1F54101300D76200 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4033BDD01F54101300D76200 /* AFNetworkReachabilityManager.h */; };
+		4033BE0F1F54101300D76200 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4033BDD11F54101300D76200 /* AFNetworkReachabilityManager.m */; };
+		4033BE101F54101300D76200 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 4033BDD21F54101300D76200 /* AFSecurityPolicy.h */; };
+		4033BE111F54101300D76200 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4033BDD31F54101300D76200 /* AFSecurityPolicy.m */; };
+		4033BE121F54101300D76200 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 4033BDD41F54101300D76200 /* AFURLRequestSerialization.h */; };
+		4033BE131F54101300D76200 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 4033BDD51F54101300D76200 /* AFURLRequestSerialization.m */; };
+		4033BE141F54101300D76200 /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 4033BDD61F54101300D76200 /* AFURLResponseSerialization.h */; };
+		4033BE151F54101300D76200 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 4033BDD71F54101300D76200 /* AFURLResponseSerialization.m */; };
+		4033BE161F54101300D76200 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4033BDD81F54101300D76200 /* AFURLSessionManager.h */; };
+		4033BE171F54101300D76200 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4033BDD91F54101300D76200 /* AFURLSessionManager.m */; };
+		4033BE181F54101300D76200 /* OCCapabilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 4033BDDA1F54101300D76200 /* OCCapabilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4033BE191F54101300D76200 /* OCCapabilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 4033BDDB1F54101300D76200 /* OCCapabilities.m */; };
+		4033BE1A1F54101300D76200 /* OCCommunication.h in Headers */ = {isa = PBXBuildFile; fileRef = 4033BDDC1F54101300D76200 /* OCCommunication.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4033BE1B1F54101300D76200 /* OCCommunication.m in Sources */ = {isa = PBXBuildFile; fileRef = 4033BDDD1F54101300D76200 /* OCCommunication.m */; };
+		4033BE1C1F54101300D76200 /* OCCredentialsDto.h in Headers */ = {isa = PBXBuildFile; fileRef = 4033BDDE1F54101300D76200 /* OCCredentialsDto.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4033BE1D1F54101300D76200 /* OCCredentialsDto.m in Sources */ = {isa = PBXBuildFile; fileRef = 4033BDDF1F54101300D76200 /* OCCredentialsDto.m */; };
+		4033BE1E1F54101300D76200 /* OCErrorMsg.h in Headers */ = {isa = PBXBuildFile; fileRef = 4033BDE01F54101300D76200 /* OCErrorMsg.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4033BE1F1F54101300D76200 /* OCFileDto.h in Headers */ = {isa = PBXBuildFile; fileRef = 4033BDE11F54101300D76200 /* OCFileDto.h */; };
+		4033BE201F54101300D76200 /* OCFileDto.m in Sources */ = {isa = PBXBuildFile; fileRef = 4033BDE21F54101300D76200 /* OCFileDto.m */; };
+		4033BE211F54101300D76200 /* OCFrameworkConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 4033BDE31F54101300D76200 /* OCFrameworkConstants.h */; };
+		4033BE221F54101300D76200 /* OCServerFeatures.h in Headers */ = {isa = PBXBuildFile; fileRef = 4033BDE41F54101300D76200 /* OCServerFeatures.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4033BE231F54101300D76200 /* OCServerFeatures.m in Sources */ = {isa = PBXBuildFile; fileRef = 4033BDE51F54101300D76200 /* OCServerFeatures.m */; };
+		4033BE241F54101300D76200 /* OCSharedDto.h in Headers */ = {isa = PBXBuildFile; fileRef = 4033BDE61F54101300D76200 /* OCSharedDto.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4033BE251F54101300D76200 /* OCSharedDto.m in Sources */ = {isa = PBXBuildFile; fileRef = 4033BDE71F54101300D76200 /* OCSharedDto.m */; };
+		4033BE261F54101300D76200 /* OCShareUser.h in Headers */ = {isa = PBXBuildFile; fileRef = 4033BDE81F54101300D76200 /* OCShareUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4033BE271F54101300D76200 /* OCShareUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4033BDE91F54101300D76200 /* OCShareUser.m */; };
+		4033BE281F54101300D76200 /* NSDate+ISO8601.h in Headers */ = {isa = PBXBuildFile; fileRef = 4033BDEB1F54101300D76200 /* NSDate+ISO8601.h */; };
+		4033BE291F54101300D76200 /* NSDate+ISO8601.m in Sources */ = {isa = PBXBuildFile; fileRef = 4033BDEC1F54101300D76200 /* NSDate+ISO8601.m */; };
+		4033BE2A1F54101300D76200 /* NSDate+RFC1123.h in Headers */ = {isa = PBXBuildFile; fileRef = 4033BDED1F54101300D76200 /* NSDate+RFC1123.h */; };
+		4033BE2B1F54101300D76200 /* NSDate+RFC1123.m in Sources */ = {isa = PBXBuildFile; fileRef = 4033BDEE1F54101300D76200 /* NSDate+RFC1123.m */; };
+		4033BE2C1F54101300D76200 /* OCHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4033BDEF1F54101300D76200 /* OCHTTPRequestOperation.h */; };
+		4033BE2D1F54101300D76200 /* OCHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4033BDF01F54101300D76200 /* OCHTTPRequestOperation.m */; };
+		4033BE2E1F54101300D76200 /* OCWebDAVClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 4033BDF11F54101300D76200 /* OCWebDAVClient.h */; };
+		4033BE2F1F54101300D76200 /* OCWebDAVClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 4033BDF21F54101300D76200 /* OCWebDAVClient.m */; };
+		4033BE301F54101300D76200 /* OCXMLParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 4033BDF41F54101300D76200 /* OCXMLParser.h */; };
+		4033BE311F54101300D76200 /* OCXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4033BDF51F54101300D76200 /* OCXMLParser.m */; };
+		4033BE321F54101300D76200 /* OCXMLServerErrorsParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 4033BDF61F54101300D76200 /* OCXMLServerErrorsParser.h */; };
+		4033BE331F54101300D76200 /* OCXMLServerErrorsParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4033BDF71F54101300D76200 /* OCXMLServerErrorsParser.m */; };
+		4033BE341F54101300D76200 /* OCXMLShareByLinkParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 4033BDF81F54101300D76200 /* OCXMLShareByLinkParser.h */; };
+		4033BE351F54101300D76200 /* OCXMLShareByLinkParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4033BDF91F54101300D76200 /* OCXMLShareByLinkParser.m */; };
+		4033BE361F54101300D76200 /* OCXMLSharedParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 4033BDFA1F54101300D76200 /* OCXMLSharedParser.h */; };
+		4033BE371F54101300D76200 /* OCXMLSharedParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4033BDFB1F54101300D76200 /* OCXMLSharedParser.m */; };
+		4033BE381F54101300D76200 /* ownCloudiOSLibrary-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 4033BDFC1F54101300D76200 /* ownCloudiOSLibrary-Prefix.pch */; };
+		4033BE391F54101300D76200 /* test.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4033BDFE1F54101300D76200 /* test.jpeg */; };
+		4033BE3A1F54101300D76200 /* video.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 4033BDFF1F54101300D76200 /* video.MOV */; };
+		4033BE3B1F54101300D76200 /* OCChunkDto.h in Headers */ = {isa = PBXBuildFile; fileRef = 4033BE011F54101300D76200 /* OCChunkDto.h */; };
+		4033BE3C1F54101300D76200 /* OCChunkDto.m in Sources */ = {isa = PBXBuildFile; fileRef = 4033BE021F54101300D76200 /* OCChunkDto.m */; };
+		4033BE3D1F54101300D76200 /* OCURLSessionUploadTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 4033BE031F54101300D76200 /* OCURLSessionUploadTask.h */; };
+		4033BE3E1F54101300D76200 /* OCURLSessionUploadTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 4033BE041F54101300D76200 /* OCURLSessionUploadTask.m */; };
+		4033BE3F1F54101300D76200 /* NSString+Encode.h in Headers */ = {isa = PBXBuildFile; fileRef = 4033BE061F54101300D76200 /* NSString+Encode.h */; };
+		4033BE401F54101300D76200 /* NSString+Encode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4033BE071F54101300D76200 /* NSString+Encode.m */; };
+		4033BE411F54101300D76200 /* OCConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 4033BE081F54101300D76200 /* OCConstants.h */; };
+		4033BE421F54101300D76200 /* UtilsFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 4033BE091F54101300D76200 /* UtilsFramework.h */; };
+		4033BE431F54101300D76200 /* UtilsFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = 4033BE0A1F54101300D76200 /* UtilsFramework.m */; };
+		4033BE4B1F54106900D76200 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4033BE461F54106900D76200 /* InfoPlist.strings */; };
+		4033BE4C1F54106900D76200 /* OCCommunicationLibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4033BE491F54106900D76200 /* OCCommunicationLibTests.m */; };
+		4033BE4D1F54106900D76200 /* ownCloud iOS libraryTests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4033BE4A1F54106900D76200 /* ownCloud iOS libraryTests-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4033BD2B1F540C9400D76200 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4033BD171F540C9400D76200 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4033BD1F1F540C9400D76200;
+			remoteInfo = ownCloudiOSLibrary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4033BD201F540C9400D76200 /* ownCloudiOSLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ownCloudiOSLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4033BD231F540C9400D76200 /* ownCloudiOSLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ownCloudiOSLibrary.h; sourceTree = "<group>"; };
+		4033BD241F540C9400D76200 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4033BD291F540C9400D76200 /* ownCloudiOSLibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ownCloudiOSLibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4033BD2E1F540C9400D76200 /* ownCloudiOSLibraryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ownCloudiOSLibraryTests.m; sourceTree = "<group>"; };
+		4033BD301F540C9400D76200 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4033BDC51F540E7300D76200 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4033BDC71F540E7A00D76200 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4033BDC91F540E8000D76200 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4033BDCD1F54101300D76200 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		4033BDCE1F54101300D76200 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		4033BDCF1F54101300D76200 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		4033BDD01F54101300D76200 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		4033BDD11F54101300D76200 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		4033BDD21F54101300D76200 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		4033BDD31F54101300D76200 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		4033BDD41F54101300D76200 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		4033BDD51F54101300D76200 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		4033BDD61F54101300D76200 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		4033BDD71F54101300D76200 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		4033BDD81F54101300D76200 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		4033BDD91F54101300D76200 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		4033BDDA1F54101300D76200 /* OCCapabilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCCapabilities.h; sourceTree = "<group>"; };
+		4033BDDB1F54101300D76200 /* OCCapabilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCCapabilities.m; sourceTree = "<group>"; };
+		4033BDDC1F54101300D76200 /* OCCommunication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCCommunication.h; sourceTree = "<group>"; };
+		4033BDDD1F54101300D76200 /* OCCommunication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCCommunication.m; sourceTree = "<group>"; };
+		4033BDDE1F54101300D76200 /* OCCredentialsDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCCredentialsDto.h; sourceTree = "<group>"; };
+		4033BDDF1F54101300D76200 /* OCCredentialsDto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCCredentialsDto.m; sourceTree = "<group>"; };
+		4033BDE01F54101300D76200 /* OCErrorMsg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCErrorMsg.h; sourceTree = "<group>"; };
+		4033BDE11F54101300D76200 /* OCFileDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCFileDto.h; sourceTree = "<group>"; };
+		4033BDE21F54101300D76200 /* OCFileDto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCFileDto.m; sourceTree = "<group>"; };
+		4033BDE31F54101300D76200 /* OCFrameworkConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCFrameworkConstants.h; sourceTree = "<group>"; };
+		4033BDE41F54101300D76200 /* OCServerFeatures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCServerFeatures.h; sourceTree = "<group>"; };
+		4033BDE51F54101300D76200 /* OCServerFeatures.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCServerFeatures.m; sourceTree = "<group>"; };
+		4033BDE61F54101300D76200 /* OCSharedDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCSharedDto.h; sourceTree = "<group>"; };
+		4033BDE71F54101300D76200 /* OCSharedDto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCSharedDto.m; sourceTree = "<group>"; };
+		4033BDE81F54101300D76200 /* OCShareUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCShareUser.h; sourceTree = "<group>"; };
+		4033BDE91F54101300D76200 /* OCShareUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCShareUser.m; sourceTree = "<group>"; };
+		4033BDEB1F54101300D76200 /* NSDate+ISO8601.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+ISO8601.h"; sourceTree = "<group>"; };
+		4033BDEC1F54101300D76200 /* NSDate+ISO8601.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+ISO8601.m"; sourceTree = "<group>"; };
+		4033BDED1F54101300D76200 /* NSDate+RFC1123.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+RFC1123.h"; sourceTree = "<group>"; };
+		4033BDEE1F54101300D76200 /* NSDate+RFC1123.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+RFC1123.m"; sourceTree = "<group>"; };
+		4033BDEF1F54101300D76200 /* OCHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCHTTPRequestOperation.h; sourceTree = "<group>"; };
+		4033BDF01F54101300D76200 /* OCHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCHTTPRequestOperation.m; sourceTree = "<group>"; };
+		4033BDF11F54101300D76200 /* OCWebDAVClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCWebDAVClient.h; sourceTree = "<group>"; };
+		4033BDF21F54101300D76200 /* OCWebDAVClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCWebDAVClient.m; sourceTree = "<group>"; };
+		4033BDF41F54101300D76200 /* OCXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCXMLParser.h; sourceTree = "<group>"; };
+		4033BDF51F54101300D76200 /* OCXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCXMLParser.m; sourceTree = "<group>"; };
+		4033BDF61F54101300D76200 /* OCXMLServerErrorsParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCXMLServerErrorsParser.h; sourceTree = "<group>"; };
+		4033BDF71F54101300D76200 /* OCXMLServerErrorsParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCXMLServerErrorsParser.m; sourceTree = "<group>"; };
+		4033BDF81F54101300D76200 /* OCXMLShareByLinkParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCXMLShareByLinkParser.h; sourceTree = "<group>"; };
+		4033BDF91F54101300D76200 /* OCXMLShareByLinkParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCXMLShareByLinkParser.m; sourceTree = "<group>"; };
+		4033BDFA1F54101300D76200 /* OCXMLSharedParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCXMLSharedParser.h; sourceTree = "<group>"; };
+		4033BDFB1F54101300D76200 /* OCXMLSharedParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCXMLSharedParser.m; sourceTree = "<group>"; };
+		4033BDFC1F54101300D76200 /* ownCloudiOSLibrary-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ownCloudiOSLibrary-Prefix.pch"; sourceTree = "<group>"; };
+		4033BDFE1F54101300D76200 /* test.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpeg; sourceTree = "<group>"; };
+		4033BDFF1F54101300D76200 /* video.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = video.MOV; sourceTree = "<group>"; };
+		4033BE011F54101300D76200 /* OCChunkDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCChunkDto.h; sourceTree = "<group>"; };
+		4033BE021F54101300D76200 /* OCChunkDto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCChunkDto.m; sourceTree = "<group>"; };
+		4033BE031F54101300D76200 /* OCURLSessionUploadTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCURLSessionUploadTask.h; sourceTree = "<group>"; };
+		4033BE041F54101300D76200 /* OCURLSessionUploadTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCURLSessionUploadTask.m; sourceTree = "<group>"; };
+		4033BE061F54101300D76200 /* NSString+Encode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Encode.h"; sourceTree = "<group>"; };
+		4033BE071F54101300D76200 /* NSString+Encode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Encode.m"; sourceTree = "<group>"; };
+		4033BE081F54101300D76200 /* OCConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCConstants.h; sourceTree = "<group>"; };
+		4033BE091F54101300D76200 /* UtilsFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilsFramework.h; sourceTree = "<group>"; };
+		4033BE0A1F54101300D76200 /* UtilsFramework.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilsFramework.m; sourceTree = "<group>"; };
+		4033BE441F54106900D76200 /* ConfigTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigTests.h; sourceTree = "<group>"; };
+		4033BE471F54106900D76200 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		4033BE481F54106900D76200 /* OCCommunicationLibTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCCommunicationLibTests.h; sourceTree = "<group>"; };
+		4033BE491F54106900D76200 /* OCCommunicationLibTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCCommunicationLibTests.m; sourceTree = "<group>"; };
+		4033BE4A1F54106900D76200 /* ownCloud iOS libraryTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ownCloud iOS libraryTests-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4033BD1C1F540C9400D76200 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4033BDCA1F540E8000D76200 /* XCTest.framework in Frameworks */,
+				4033BDC81F540E7A00D76200 /* Foundation.framework in Frameworks */,
+				4033BDC61F540E7300D76200 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4033BD261F540C9400D76200 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4033BD2A1F540C9400D76200 /* ownCloudiOSLibrary.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4033BD161F540C9400D76200 = {
+			isa = PBXGroup;
+			children = (
+				4033BD221F540C9400D76200 /* ownCloudiOSLibrary */,
+				4033BD2D1F540C9400D76200 /* ownCloudiOSLibraryTests */,
+				4033BD211F540C9400D76200 /* Products */,
+				4033BDC41F540E7200D76200 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4033BD211F540C9400D76200 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4033BD201F540C9400D76200 /* ownCloudiOSLibrary.framework */,
+				4033BD291F540C9400D76200 /* ownCloudiOSLibraryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4033BD221F540C9400D76200 /* ownCloudiOSLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				4033BDCB1F54101300D76200 /* ExternalLibs */,
+				4033BDDA1F54101300D76200 /* OCCapabilities.h */,
+				4033BDDB1F54101300D76200 /* OCCapabilities.m */,
+				4033BDDC1F54101300D76200 /* OCCommunication.h */,
+				4033BDDD1F54101300D76200 /* OCCommunication.m */,
+				4033BDDE1F54101300D76200 /* OCCredentialsDto.h */,
+				4033BDDF1F54101300D76200 /* OCCredentialsDto.m */,
+				4033BDE01F54101300D76200 /* OCErrorMsg.h */,
+				4033BDE11F54101300D76200 /* OCFileDto.h */,
+				4033BDE21F54101300D76200 /* OCFileDto.m */,
+				4033BDE31F54101300D76200 /* OCFrameworkConstants.h */,
+				4033BDE41F54101300D76200 /* OCServerFeatures.h */,
+				4033BDE51F54101300D76200 /* OCServerFeatures.m */,
+				4033BDE61F54101300D76200 /* OCSharedDto.h */,
+				4033BDE71F54101300D76200 /* OCSharedDto.m */,
+				4033BDE81F54101300D76200 /* OCShareUser.h */,
+				4033BDE91F54101300D76200 /* OCShareUser.m */,
+				4033BDEA1F54101300D76200 /* OCWebDavClient */,
+				4033BDFC1F54101300D76200 /* ownCloudiOSLibrary-Prefix.pch */,
+				4033BDFD1F54101300D76200 /* Resources */,
+				4033BE001F54101300D76200 /* UploadSupport */,
+				4033BE051F54101300D76200 /* Utils */,
+				4033BD231F540C9400D76200 /* ownCloudiOSLibrary.h */,
+				4033BD241F540C9400D76200 /* Info.plist */,
+			);
+			path = ownCloudiOSLibrary;
+			sourceTree = "<group>";
+		};
+		4033BD2D1F540C9400D76200 /* ownCloudiOSLibraryTests */ = {
+			isa = PBXGroup;
+			children = (
+				4033BE441F54106900D76200 /* ConfigTests.h */,
+				4033BE451F54106900D76200 /* en.lproj */,
+				4033BE481F54106900D76200 /* OCCommunicationLibTests.h */,
+				4033BE491F54106900D76200 /* OCCommunicationLibTests.m */,
+				4033BE4A1F54106900D76200 /* ownCloud iOS libraryTests-Info.plist */,
+				4033BD2E1F540C9400D76200 /* ownCloudiOSLibraryTests.m */,
+				4033BD301F540C9400D76200 /* Info.plist */,
+			);
+			path = ownCloudiOSLibraryTests;
+			sourceTree = "<group>";
+		};
+		4033BDC41F540E7200D76200 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4033BDC91F540E8000D76200 /* XCTest.framework */,
+				4033BDC71F540E7A00D76200 /* Foundation.framework */,
+				4033BDC51F540E7300D76200 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4033BDCB1F54101300D76200 /* ExternalLibs */ = {
+			isa = PBXGroup;
+			children = (
+				4033BDCC1F54101300D76200 /* AFNetworking */,
+			);
+			path = ExternalLibs;
+			sourceTree = "<group>";
+		};
+		4033BDCC1F54101300D76200 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				4033BDCD1F54101300D76200 /* AFHTTPSessionManager.h */,
+				4033BDCE1F54101300D76200 /* AFHTTPSessionManager.m */,
+				4033BDCF1F54101300D76200 /* AFNetworking.h */,
+				4033BDD01F54101300D76200 /* AFNetworkReachabilityManager.h */,
+				4033BDD11F54101300D76200 /* AFNetworkReachabilityManager.m */,
+				4033BDD21F54101300D76200 /* AFSecurityPolicy.h */,
+				4033BDD31F54101300D76200 /* AFSecurityPolicy.m */,
+				4033BDD41F54101300D76200 /* AFURLRequestSerialization.h */,
+				4033BDD51F54101300D76200 /* AFURLRequestSerialization.m */,
+				4033BDD61F54101300D76200 /* AFURLResponseSerialization.h */,
+				4033BDD71F54101300D76200 /* AFURLResponseSerialization.m */,
+				4033BDD81F54101300D76200 /* AFURLSessionManager.h */,
+				4033BDD91F54101300D76200 /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		4033BDEA1F54101300D76200 /* OCWebDavClient */ = {
+			isa = PBXGroup;
+			children = (
+				4033BDEB1F54101300D76200 /* NSDate+ISO8601.h */,
+				4033BDEC1F54101300D76200 /* NSDate+ISO8601.m */,
+				4033BDED1F54101300D76200 /* NSDate+RFC1123.h */,
+				4033BDEE1F54101300D76200 /* NSDate+RFC1123.m */,
+				4033BDEF1F54101300D76200 /* OCHTTPRequestOperation.h */,
+				4033BDF01F54101300D76200 /* OCHTTPRequestOperation.m */,
+				4033BDF11F54101300D76200 /* OCWebDAVClient.h */,
+				4033BDF21F54101300D76200 /* OCWebDAVClient.m */,
+				4033BDF31F54101300D76200 /* Parsers */,
+			);
+			path = OCWebDavClient;
+			sourceTree = "<group>";
+		};
+		4033BDF31F54101300D76200 /* Parsers */ = {
+			isa = PBXGroup;
+			children = (
+				4033BDF41F54101300D76200 /* OCXMLParser.h */,
+				4033BDF51F54101300D76200 /* OCXMLParser.m */,
+				4033BDF61F54101300D76200 /* OCXMLServerErrorsParser.h */,
+				4033BDF71F54101300D76200 /* OCXMLServerErrorsParser.m */,
+				4033BDF81F54101300D76200 /* OCXMLShareByLinkParser.h */,
+				4033BDF91F54101300D76200 /* OCXMLShareByLinkParser.m */,
+				4033BDFA1F54101300D76200 /* OCXMLSharedParser.h */,
+				4033BDFB1F54101300D76200 /* OCXMLSharedParser.m */,
+			);
+			path = Parsers;
+			sourceTree = "<group>";
+		};
+		4033BDFD1F54101300D76200 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4033BDFE1F54101300D76200 /* test.jpeg */,
+				4033BDFF1F54101300D76200 /* video.MOV */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4033BE001F54101300D76200 /* UploadSupport */ = {
+			isa = PBXGroup;
+			children = (
+				4033BE011F54101300D76200 /* OCChunkDto.h */,
+				4033BE021F54101300D76200 /* OCChunkDto.m */,
+				4033BE031F54101300D76200 /* OCURLSessionUploadTask.h */,
+				4033BE041F54101300D76200 /* OCURLSessionUploadTask.m */,
+			);
+			path = UploadSupport;
+			sourceTree = "<group>";
+		};
+		4033BE051F54101300D76200 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				4033BE061F54101300D76200 /* NSString+Encode.h */,
+				4033BE071F54101300D76200 /* NSString+Encode.m */,
+				4033BE081F54101300D76200 /* OCConstants.h */,
+				4033BE091F54101300D76200 /* UtilsFramework.h */,
+				4033BE0A1F54101300D76200 /* UtilsFramework.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		4033BE451F54106900D76200 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				4033BE461F54106900D76200 /* InfoPlist.strings */,
+			);
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4033BD1D1F540C9400D76200 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4033BE121F54101300D76200 /* AFURLRequestSerialization.h in Headers */,
+				4033BE321F54101300D76200 /* OCXMLServerErrorsParser.h in Headers */,
+				4033BE0B1F54101300D76200 /* AFHTTPSessionManager.h in Headers */,
+				4033BE101F54101300D76200 /* AFSecurityPolicy.h in Headers */,
+				4033BE381F54101300D76200 /* ownCloudiOSLibrary-Prefix.pch in Headers */,
+				4033BE241F54101300D76200 /* OCSharedDto.h in Headers */,
+				4033BE411F54101300D76200 /* OCConstants.h in Headers */,
+				4033BE1C1F54101300D76200 /* OCCredentialsDto.h in Headers */,
+				4033BE0E1F54101300D76200 /* AFNetworkReachabilityManager.h in Headers */,
+				4033BE361F54101300D76200 /* OCXMLSharedParser.h in Headers */,
+				4033BE281F54101300D76200 /* NSDate+ISO8601.h in Headers */,
+				4033BE1E1F54101300D76200 /* OCErrorMsg.h in Headers */,
+				4033BE3D1F54101300D76200 /* OCURLSessionUploadTask.h in Headers */,
+				4033BE161F54101300D76200 /* AFURLSessionManager.h in Headers */,
+				4033BE1A1F54101300D76200 /* OCCommunication.h in Headers */,
+				4033BE261F54101300D76200 /* OCShareUser.h in Headers */,
+				4033BE3F1F54101300D76200 /* NSString+Encode.h in Headers */,
+				4033BE141F54101300D76200 /* AFURLResponseSerialization.h in Headers */,
+				4033BE3B1F54101300D76200 /* OCChunkDto.h in Headers */,
+				4033BE211F54101300D76200 /* OCFrameworkConstants.h in Headers */,
+				4033BE2A1F54101300D76200 /* NSDate+RFC1123.h in Headers */,
+				4033BD311F540C9400D76200 /* ownCloudiOSLibrary.h in Headers */,
+				4033BE221F54101300D76200 /* OCServerFeatures.h in Headers */,
+				4033BE1F1F54101300D76200 /* OCFileDto.h in Headers */,
+				4033BE341F54101300D76200 /* OCXMLShareByLinkParser.h in Headers */,
+				4033BE181F54101300D76200 /* OCCapabilities.h in Headers */,
+				4033BE2C1F54101300D76200 /* OCHTTPRequestOperation.h in Headers */,
+				4033BE421F54101300D76200 /* UtilsFramework.h in Headers */,
+				4033BE0D1F54101300D76200 /* AFNetworking.h in Headers */,
+				4033BE2E1F54101300D76200 /* OCWebDAVClient.h in Headers */,
+				4033BE301F54101300D76200 /* OCXMLParser.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4033BD1F1F540C9400D76200 /* ownCloudiOSLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4033BD341F540C9400D76200 /* Build configuration list for PBXNativeTarget "ownCloudiOSLibrary" */;
+			buildPhases = (
+				4033BD1B1F540C9400D76200 /* Sources */,
+				4033BD1C1F540C9400D76200 /* Frameworks */,
+				4033BD1D1F540C9400D76200 /* Headers */,
+				4033BD1E1F540C9400D76200 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ownCloudiOSLibrary;
+			productName = ownCloudiOSLibrary;
+			productReference = 4033BD201F540C9400D76200 /* ownCloudiOSLibrary.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4033BD281F540C9400D76200 /* ownCloudiOSLibraryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4033BD371F540C9400D76200 /* Build configuration list for PBXNativeTarget "ownCloudiOSLibraryTests" */;
+			buildPhases = (
+				4033BD251F540C9400D76200 /* Sources */,
+				4033BD261F540C9400D76200 /* Frameworks */,
+				4033BD271F540C9400D76200 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4033BD2C1F540C9400D76200 /* PBXTargetDependency */,
+			);
+			name = ownCloudiOSLibraryTests;
+			productName = ownCloudiOSLibraryTests;
+			productReference = 4033BD291F540C9400D76200 /* ownCloudiOSLibraryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4033BD171F540C9400D76200 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = com.owncloud;
+				TargetAttributes = {
+					4033BD1F1F540C9400D76200 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 9B5WD74GWJ;
+						ProvisioningStyle = Automatic;
+					};
+					4033BD281F540C9400D76200 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 9B5WD74GWJ;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4033BD1A1F540C9400D76200 /* Build configuration list for PBXProject "ownCloudiOSLibrary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4033BD161F540C9400D76200;
+			productRefGroup = 4033BD211F540C9400D76200 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4033BD1F1F540C9400D76200 /* ownCloudiOSLibrary */,
+				4033BD281F540C9400D76200 /* ownCloudiOSLibraryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4033BD1E1F540C9400D76200 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4033BE3A1F54101300D76200 /* video.MOV in Resources */,
+				4033BE391F54101300D76200 /* test.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4033BD271F540C9400D76200 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4033BE4B1F54106900D76200 /* InfoPlist.strings in Resources */,
+				4033BE4D1F54106900D76200 /* ownCloud iOS libraryTests-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4033BD1B1F540C9400D76200 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4033BE251F54101300D76200 /* OCSharedDto.m in Sources */,
+				4033BE0F1F54101300D76200 /* AFNetworkReachabilityManager.m in Sources */,
+				4033BE111F54101300D76200 /* AFSecurityPolicy.m in Sources */,
+				4033BE331F54101300D76200 /* OCXMLServerErrorsParser.m in Sources */,
+				4033BE2F1F54101300D76200 /* OCWebDAVClient.m in Sources */,
+				4033BE401F54101300D76200 /* NSString+Encode.m in Sources */,
+				4033BE1D1F54101300D76200 /* OCCredentialsDto.m in Sources */,
+				4033BE0C1F54101300D76200 /* AFHTTPSessionManager.m in Sources */,
+				4033BE351F54101300D76200 /* OCXMLShareByLinkParser.m in Sources */,
+				4033BE191F54101300D76200 /* OCCapabilities.m in Sources */,
+				4033BE201F54101300D76200 /* OCFileDto.m in Sources */,
+				4033BE271F54101300D76200 /* OCShareUser.m in Sources */,
+				4033BE2B1F54101300D76200 /* NSDate+RFC1123.m in Sources */,
+				4033BE311F54101300D76200 /* OCXMLParser.m in Sources */,
+				4033BE231F54101300D76200 /* OCServerFeatures.m in Sources */,
+				4033BE291F54101300D76200 /* NSDate+ISO8601.m in Sources */,
+				4033BE3C1F54101300D76200 /* OCChunkDto.m in Sources */,
+				4033BE1B1F54101300D76200 /* OCCommunication.m in Sources */,
+				4033BE171F54101300D76200 /* AFURLSessionManager.m in Sources */,
+				4033BE371F54101300D76200 /* OCXMLSharedParser.m in Sources */,
+				4033BE431F54101300D76200 /* UtilsFramework.m in Sources */,
+				4033BE131F54101300D76200 /* AFURLRequestSerialization.m in Sources */,
+				4033BE151F54101300D76200 /* AFURLResponseSerialization.m in Sources */,
+				4033BE3E1F54101300D76200 /* OCURLSessionUploadTask.m in Sources */,
+				4033BE2D1F54101300D76200 /* OCHTTPRequestOperation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4033BD251F540C9400D76200 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4033BE4C1F54106900D76200 /* OCCommunicationLibTests.m in Sources */,
+				4033BD2F1F540C9400D76200 /* ownCloudiOSLibraryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4033BD2C1F540C9400D76200 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4033BD1F1F540C9400D76200 /* ownCloudiOSLibrary */;
+			targetProxy = 4033BD2B1F540C9400D76200 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4033BE461F54106900D76200 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4033BE471F54106900D76200 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4033BD321F540C9400D76200 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4033BD331F540C9400D76200 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4033BD351F540C9400D76200 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 9B5WD74GWJ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ownCloudiOSLibrary/ownCloudiOSLibrary-Prefix.pch";
+				INFOPLIST_FILE = ownCloudiOSLibrary/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.owncloud.ownCloudiOSLibrary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4033BD361F540C9400D76200 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 9B5WD74GWJ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ownCloudiOSLibrary/ownCloudiOSLibrary-Prefix.pch";
+				INFOPLIST_FILE = ownCloudiOSLibrary/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.owncloud.ownCloudiOSLibrary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4033BD381F540C9400D76200 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9B5WD74GWJ;
+				INFOPLIST_FILE = ownCloudiOSLibraryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.owncloud.ownCloudiOSLibraryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4033BD391F540C9400D76200 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9B5WD74GWJ;
+				INFOPLIST_FILE = ownCloudiOSLibraryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.owncloud.ownCloudiOSLibraryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4033BD1A1F540C9400D76200 /* Build configuration list for PBXProject "ownCloudiOSLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4033BD321F540C9400D76200 /* Debug */,
+				4033BD331F540C9400D76200 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4033BD341F540C9400D76200 /* Build configuration list for PBXNativeTarget "ownCloudiOSLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4033BD351F540C9400D76200 /* Debug */,
+				4033BD361F540C9400D76200 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4033BD371F540C9400D76200 /* Build configuration list for PBXNativeTarget "ownCloudiOSLibraryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4033BD381F540C9400D76200 /* Debug */,
+				4033BD391F540C9400D76200 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4033BD171F540C9400D76200 /* Project object */;
+}

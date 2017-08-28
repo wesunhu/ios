@@ -369,9 +369,9 @@
 		40AB65121EAFA10000379361 /* ShareLinkViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40AB65101EAFA10000379361 /* ShareLinkViewController.xib */; };
 		40B083991F1607D90072574A /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B083981F1607D90072574A /* Log.swift */; };
 		40B5700F1F1E137D00A98A8E /* UtilsLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B5700E1F1E137D00A98A8E /* UtilsLogin.m */; };
-		40BCC2BA1F3B5FA500F5DC6F /* HandleCredentials.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C4B6BD1F3A062B0009F11F /* HandleCredentials.m */; };
-		40BCC2BC1F3B5FA700F5DC6F /* HandleCredentials.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C4B6BD1F3A062B0009F11F /* HandleCredentials.m */; };
-		40BCC2BD1F3B5FA700F5DC6F /* HandleCredentials.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C4B6BD1F3A062B0009F11F /* HandleCredentials.m */; };
+		40BCC2BA1F3B5FA500F5DC6F /* (null) in Sources */ = {isa = PBXBuildFile; };
+		40BCC2BC1F3B5FA700F5DC6F /* (null) in Sources */ = {isa = PBXBuildFile; };
+		40BCC2BD1F3B5FA700F5DC6F /* (null) in Sources */ = {isa = PBXBuildFile; };
 		40C01ED91F0FA923002DCAAA /* DetectListOfFiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C01ED81F0FA923002DCAAA /* DetectListOfFiles.swift */; };
 		40C0BDB91C46562A0057B1DD /* SharePrivilegeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40C0BDB81C46562A0057B1DD /* SharePrivilegeCell.xib */; };
 		40C0BDBC1C465F390057B1DD /* SharePrivilegeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C0BDBB1C465F390057B1DD /* SharePrivilegeCell.swift */; };
@@ -432,7 +432,6 @@
 		596C06161CF47285004BCF51 /* ELCAssetTablePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 596C06111CF47285004BCF51 /* ELCAssetTablePicker.xib */; };
 		596C06171CF47285004BCF51 /* Overlay.png in Resources */ = {isa = PBXBuildFile; fileRef = 596C06121CF47285004BCF51 /* Overlay.png */; };
 		596C06181CF47285004BCF51 /* Overlay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 596C06131CF47285004BCF51 /* Overlay@2x.png */; };
-		597A87981A0143000071F2AF /* libownCloudiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA8667E118AA291C00D3550D /* libownCloudiOS.a */; };
 		59915D9E1BBC00930015FBF3 /* CWLOrderedDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 59915D9D1BBC00930015FBF3 /* CWLOrderedDictionary.m */; };
 		59990A251A0BD67A00D3B842 /* InfoFileUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 14AB382D18C8E35200B34697 /* InfoFileUtils.m */; };
 		59990A271A0BD74000D3B842 /* FileNameUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 148DD6FC17786BF200FB9977 /* FileNameUtils.m */; };
@@ -704,7 +703,6 @@
 		EA1F62D71A5EBF8500D6346F /* ManageFilesDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 1487F13A177C2F73004A1A5A /* ManageFilesDB.m */; };
 		EA1F62D81A5EBFC700D6346F /* ManageUsersDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 1487F140177C2FC1004A1A5A /* ManageUsersDB.m */; };
 		EA1F62D91A5EBFDF00D6346F /* OCKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 40FF874219F81396008B7C62 /* OCKeychain.m */; };
-		EA1F62DD1A5EC08300D6346F /* libownCloudiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA8667E118AA291C00D3550D /* libownCloudiOS.a */; };
 		EA1F62DE1A5EC11900D6346F /* FileDto.m in Sources */ = {isa = PBXBuildFile; fileRef = 1487F146177C315D004A1A5A /* FileDto.m */; };
 		EA2243EA1B71276D00F62E2A /* ShareLinkHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2243E81B71276D00F62E2A /* ShareLinkHeaderCell.swift */; };
 		EA2243EB1B71276D00F62E2A /* ShareLinkHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA2243E91B71276D00F62E2A /* ShareLinkHeaderCell.xib */; };
@@ -756,7 +754,6 @@
 		EA68969317F59A090033B3C1 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA68969217F59A090033B3C1 /* AudioToolbox.framework */; };
 		EA68969917F9AC860033B3C1 /* OCPortraitNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA68969817F9AC860033B3C1 /* OCPortraitNavigationViewController.m */; };
 		EA707223199CC59E00CE7079 /* ManageDownloads.m in Sources */ = {isa = PBXBuildFile; fileRef = EA707222199CC59E00CE7079 /* ManageDownloads.m */; };
-		EA8667E918AA299000D3550D /* libownCloudiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA8667E118AA291C00D3550D /* libownCloudiOS.a */; };
 		EA8ADE601A31D759008D3612 /* DocumentPickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8ADE5F1A31D759008D3612 /* DocumentPickerCell.m */; };
 		EA8ADE621A31D770008D3612 /* DocumentPickerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA8ADE611A31D770008D3612 /* DocumentPickerCell.xib */; };
 		EA8ADE681A31E9AB008D3612 /* FFCircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8ADE651A31E9AB008D3612 /* FFCircularProgressView.m */; };
@@ -933,7 +930,6 @@
 		EAF7216C1AADCC9B009F5596 /* zip_icon~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1487F1A1177C35AA004A1A5A /* zip_icon~ipad.png */; };
 		EAF7216F1AADE7EE009F5596 /* UIColor+Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 148DD5B41778436A00FB9977 /* UIColor+Constants.m */; };
 		EAF721741AAF1A13009F5596 /* UserDto.m in Sources */ = {isa = PBXBuildFile; fileRef = 1487F148177C315D004A1A5A /* UserDto.m */; };
-		EAF721791AAF1AEF009F5596 /* libownCloudiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA8667E118AA291C00D3550D /* libownCloudiOS.a */; };
 		EAF7217A1AAF1B33009F5596 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 137F3B4715B9376D0009BB24 /* libsqlite3.0.dylib */; };
 		EAF7217B1AAF200A009F5596 /* FileDto.m in Sources */ = {isa = PBXBuildFile; fileRef = 1487F146177C315D004A1A5A /* FileDto.m */; };
 		EAF7217D1AAF2E0D009F5596 /* Managers.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF7217C1AAF2E0D009F5596 /* Managers.swift */; };
@@ -962,19 +958,19 @@
 			remoteGlobalIDString = 1324297715ADBB3700DF823E;
 			remoteInfo = "Owncloud iOs Client";
 		};
-		597A87961A013FD50071F2AF /* PBXContainerItemProxy */ = {
+		4033BD401F540C9500D76200 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = EA8667DB18AA291C00D3550D /* ownCloud iOS library.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = EA7CC896183E11E600B6A4B4;
-			remoteInfo = "ownCloud iOS library";
+			containerPortal = 4033BD3A1F540C9400D76200 /* ownCloudiOSLibrary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4033BD201F540C9400D76200;
+			remoteInfo = ownCloudiOSLibrary;
 		};
-		EA1F62DB1A5EC07E00D6346F /* PBXContainerItemProxy */ = {
+		4033BD421F540C9500D76200 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = EA8667DB18AA291C00D3550D /* ownCloud iOS library.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = EA7CC896183E11E600B6A4B4;
-			remoteInfo = "ownCloud iOS library";
+			containerPortal = 4033BD3A1F540C9400D76200 /* ownCloudiOSLibrary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4033BD291F540C9400D76200;
+			remoteInfo = ownCloudiOSLibraryTests;
 		};
 		EA66069D1AA767F800BA2C65 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -982,27 +978,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = EA6606941AA767F700BA2C65;
 			remoteInfo = "OC Share Sheet";
-		};
-		EA8667E018AA291C00D3550D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EA8667DB18AA291C00D3550D /* ownCloud iOS library.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = EA7CC897183E11E600B6A4B4;
-			remoteInfo = "ownCloud iOS library";
-		};
-		EA8667E218AA291C00D3550D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EA8667DB18AA291C00D3550D /* ownCloud iOS library.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = EA7CC8A7183E11E600B6A4B4;
-			remoteInfo = "ownCloud iOS libraryTests";
-		};
-		EA8667E518AA297F00D3550D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EA8667DB18AA291C00D3550D /* ownCloud iOS library.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = EA7CC896183E11E600B6A4B4;
-			remoteInfo = "ownCloud iOS library";
 		};
 		EAB0AB4819ED356A00764C31 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -1031,13 +1006,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = EAB0AB3119ED356A00764C31;
 			remoteInfo = ownCloudExtApp;
-		};
-		EAF721771AAF1A97009F5596 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EA8667DB18AA291C00D3550D /* ownCloud iOS library.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = EA7CC896183E11E600B6A4B4;
-			remoteInfo = "ownCloud iOS library";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -1511,6 +1479,7 @@
 		4030D8F21A16277100DB0871 /* file_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = file_icon.png; sourceTree = "<group>"; };
 		4030D8F31A16277100DB0871 /* file_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "file_icon@2x.png"; sourceTree = "<group>"; };
 		4030D8F41A16277100DB0871 /* file_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "file_icon@3x.png"; sourceTree = "<group>"; };
+		4033BD3A1F540C9400D76200 /* ownCloudiOSLibrary.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ownCloudiOSLibrary.xcodeproj; path = ownCloudiOSLibrary/ownCloudiOSLibrary.xcodeproj; sourceTree = "<group>"; };
 		404BA7E41D49F4DB00A716C7 /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/Localizable.strings; sourceTree = "<group>"; };
 		404BA7E51D49F4E300A716C7 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		404BA7E61D49F4EB00A716C7 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
@@ -1843,7 +1812,6 @@
 		EA68969817F9AC860033B3C1 /* OCPortraitNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OCPortraitNavigationViewController.m; path = Tabs/FileTab/OCPortraitNavigationViewController.m; sourceTree = "<group>"; };
 		EA707221199CC59E00CE7079 /* ManageDownloads.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ManageDownloads.h; path = "Owncloud iOs Client/Network/Downloads/ManageDownloads.h"; sourceTree = "<group>"; };
 		EA707222199CC59E00CE7079 /* ManageDownloads.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ManageDownloads.m; path = "Owncloud iOs Client/Network/Downloads/ManageDownloads.m"; sourceTree = "<group>"; };
-		EA8667DB18AA291C00D3550D /* ownCloud iOS library.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "ownCloud iOS library.xcodeproj"; path = "OCCommunicationLib/OCCommunicationLib/ownCloud iOS library.xcodeproj"; sourceTree = "<group>"; };
 		EA8ADE5E1A31D759008D3612 /* DocumentPickerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DocumentPickerCell.h; path = Cells/DocumentPickerCell.h; sourceTree = "<group>"; };
 		EA8ADE5F1A31D759008D3612 /* DocumentPickerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DocumentPickerCell.m; path = Cells/DocumentPickerCell.m; sourceTree = "<group>"; };
 		EA8ADE611A31D770008D3612 /* DocumentPickerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DocumentPickerCell.xib; path = Cells/DocumentPickerCell.xib; sourceTree = "<group>"; };
@@ -1953,7 +1921,6 @@
 				CB238ACD1E52FCA4006A03FA /* AVKit.framework in Frameworks */,
 				59C71D281A921A5100F66166 /* ImageIO.framework in Frameworks */,
 				404FDA241A36E5E5008AB4E1 /* CoreLocation.framework in Frameworks */,
-				EA8667E918AA299000D3550D /* libownCloudiOS.a in Frameworks */,
 				EA68969317F59A090033B3C1 /* AudioToolbox.framework in Frameworks */,
 				EAC52E1616BAE65300C7341E /* AVFoundation.framework in Frameworks */,
 				13D8741F169DBE05000FBE6D /* MessageUI.framework in Frameworks */,
@@ -1994,7 +1961,6 @@
 				EAC6E5F51AB0912200CCF8C4 /* libcrypto.a in Frameworks */,
 				EAC6E5F41AB0911600CCF8C4 /* libssl.a in Frameworks */,
 				EAF7217A1AAF1B33009F5596 /* libsqlite3.0.dylib in Frameworks */,
-				EAF721791AAF1AEF009F5596 /* libownCloudiOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2006,7 +1972,6 @@
 				59A6F4EC1A161ED400345229 /* libssl.a in Frameworks */,
 				59D700FC1A122BB6006DB0B7 /* MobileCoreServices.framework in Frameworks */,
 				599D99F41A025733008A9DB3 /* libsqlite3.0.dylib in Frameworks */,
-				597A87981A0143000071F2AF /* libownCloudiOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2017,7 +1982,6 @@
 				59E58B771B04ED20004E9739 /* MobileCoreServices.framework in Frameworks */,
 				59E58B751B04ED15004E9739 /* libcrypto.a in Frameworks */,
 				59E58B761B04ED15004E9739 /* libssl.a in Frameworks */,
-				EA1F62DD1A5EC08300D6346F /* libownCloudiOS.a in Frameworks */,
 				EA1F62D61A5EBDF900D6346F /* libsqlite3.0.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2038,7 +2002,7 @@
 		1324296D15ADBB3700DF823E = {
 			isa = PBXGroup;
 			children = (
-				EA8667DB18AA291C00D3550D /* ownCloud iOS library.xcodeproj */,
+				4033BD3A1F540C9400D76200 /* ownCloudiOSLibrary.xcodeproj */,
 				1324298215ADBB3700DF823E /* Owncloud iOs Client */,
 				132429B415ADBB3800DF823E /* Owncloud iOs ClientTests */,
 				EAB0AB3319ED356A00764C31 /* ownCloudExtApp */,
@@ -3049,6 +3013,15 @@
 			path = HelpGuide;
 			sourceTree = "<group>";
 		};
+		4033BD3B1F540C9400D76200 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4033BD411F540C9500D76200 /* ownCloudiOSLibrary.framework */,
+				4033BD431F540C9500D76200 /* ownCloudiOSLibraryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		4052B4AC1B4E951F000788DA /* HelpPageButtons */ = {
 			isa = PBXGroup;
 			children = (
@@ -3581,15 +3554,6 @@
 			name = KKPasscodeLock;
 			sourceTree = "<group>";
 		};
-		EA8667DC18AA291C00D3550D /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				EA8667E118AA291C00D3550D /* libownCloudiOS.a */,
-				EA8667E318AA291C00D3550D /* ownCloud iOS libraryTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		EA8ADE5C1A31D734008D3612 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
@@ -3910,7 +3874,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				EA8667E618AA297F00D3550D /* PBXTargetDependency */,
 				EAB0AB4919ED356A00764C31 /* PBXTargetDependency */,
 				EAB0AB4C19ED356A00764C31 /* PBXTargetDependency */,
 				EAB0AB4E19ED356A00764C31 /* PBXTargetDependency */,
@@ -3952,7 +3915,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				EAF721781AAF1A97009F5596 /* PBXTargetDependency */,
 			);
 			name = "OC Share Sheet";
 			productName = "OC Share Sheet";
@@ -3970,7 +3932,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				597A87971A013FD50071F2AF /* PBXTargetDependency */,
 			);
 			name = ownCloudExtApp;
 			productName = ownCloudExtApp;
@@ -3988,7 +3949,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				EA1F62DC1A5EC07E00D6346F /* PBXTargetDependency */,
 			);
 			name = ownCloudExtAppFileProvider;
 			productName = ownCloudExtAppFileProvider;
@@ -4098,8 +4058,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = EA8667DC18AA291C00D3550D /* Products */;
-					ProjectRef = EA8667DB18AA291C00D3550D /* ownCloud iOS library.xcodeproj */;
+					ProductGroup = 4033BD3B1F540C9400D76200 /* Products */;
+					ProjectRef = 4033BD3A1F540C9400D76200 /* ownCloudiOSLibrary.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -4114,18 +4074,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		EA8667E118AA291C00D3550D /* libownCloudiOS.a */ = {
+		4033BD411F540C9500D76200 /* ownCloudiOSLibrary.framework */ = {
 			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libownCloudiOS.a;
-			remoteRef = EA8667E018AA291C00D3550D /* PBXContainerItemProxy */;
+			fileType = wrapper.framework;
+			path = ownCloudiOSLibrary.framework;
+			remoteRef = 4033BD401F540C9500D76200 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		EA8667E318AA291C00D3550D /* ownCloud iOS libraryTests.xctest */ = {
+		4033BD431F540C9500D76200 /* ownCloudiOSLibraryTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
-			path = "ownCloud iOS libraryTests.xctest";
-			remoteRef = EA8667E218AA291C00D3550D /* PBXContainerItemProxy */;
+			path = ownCloudiOSLibraryTests.xctest;
+			remoteRef = 4033BD421F540C9500D76200 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -5024,7 +4984,7 @@
 				EAC6E5FE1AB0A41900CCF8C4 /* OCNavigationController.m in Sources */,
 				EAF721871AB03DB9009F5596 /* ManageFilesDB.m in Sources */,
 				EA66069A1AA767F800BA2C65 /* ShareViewController.swift in Sources */,
-				40BCC2BD1F3B5FA700F5DC6F /* HandleCredentials.m in Sources */,
+				40BCC2BD1F3B5FA700F5DC6F /* (null) in Sources */,
 				EA1415A61AB1B89E0083EACE /* OCToolBar.m in Sources */,
 				EAF7217D1AAF2E0D009F5596 /* Managers.swift in Sources */,
 				4056551D1CE1DD5E001266EE /* UtilsFileSystem.m in Sources */,
@@ -5072,7 +5032,7 @@
 				59990A251A0BD67A00D3B842 /* InfoFileUtils.m in Sources */,
 				590849F11A0A811000D3E842 /* NSMutableArray+SWUtilityButtons.m in Sources */,
 				EA8ADE601A31D759008D3612 /* DocumentPickerCell.m in Sources */,
-				40BCC2BA1F3B5FA500F5DC6F /* HandleCredentials.m in Sources */,
+				40BCC2BA1F3B5FA500F5DC6F /* (null) in Sources */,
 				590849F21A0A811000D3E842 /* SWCellScrollView.m in Sources */,
 				EAD281BB1A38A2F900A00D54 /* DPDownload.m in Sources */,
 				590849F31A0A811000D3E842 /* SWLongPressGestureRecognizer.m in Sources */,
@@ -5123,7 +5083,7 @@
 				EA1F62D81A5EBFC700D6346F /* ManageUsersDB.m in Sources */,
 				EAE80E261A6D317C0061BD86 /* ManageUploadsDB.m in Sources */,
 				EA1F62D71A5EBF8500D6346F /* ManageFilesDB.m in Sources */,
-				40BCC2BC1F3B5FA700F5DC6F /* HandleCredentials.m in Sources */,
+				40BCC2BC1F3B5FA700F5DC6F /* (null) in Sources */,
 				EA1F62D91A5EBFDF00D6346F /* OCKeychain.m in Sources */,
 				405D06C71BFB670200591604 /* ManageCapabilitiesDB.m in Sources */,
 				EAFDF1771A76372A00655DBF /* NSString+Encoding.m in Sources */,
@@ -5142,25 +5102,10 @@
 			target = 1324297715ADBB3700DF823E /* Owncloud iOs Client */;
 			targetProxy = 132429B215ADBB3800DF823E /* PBXContainerItemProxy */;
 		};
-		597A87971A013FD50071F2AF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "ownCloud iOS library";
-			targetProxy = 597A87961A013FD50071F2AF /* PBXContainerItemProxy */;
-		};
-		EA1F62DC1A5EC07E00D6346F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "ownCloud iOS library";
-			targetProxy = EA1F62DB1A5EC07E00D6346F /* PBXContainerItemProxy */;
-		};
 		EA66069E1AA767F800BA2C65 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = EA6606941AA767F700BA2C65 /* OC Share Sheet */;
 			targetProxy = EA66069D1AA767F800BA2C65 /* PBXContainerItemProxy */;
-		};
-		EA8667E618AA297F00D3550D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "ownCloud iOS library";
-			targetProxy = EA8667E518AA297F00D3550D /* PBXContainerItemProxy */;
 		};
 		EAB0AB4919ED356A00764C31 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -5181,11 +5126,6 @@
 			isa = PBXTargetDependency;
 			target = EAB0AB3119ED356A00764C31 /* ownCloudExtApp */;
 			targetProxy = EAB0AB5019ED356A00764C31 /* PBXContainerItemProxy */;
-		};
-		EAF721781AAF1A97009F5596 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "ownCloud iOS library";
-			targetProxy = EAF721771AAF1A97009F5596 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
